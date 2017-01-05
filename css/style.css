@@ -84,9 +84,9 @@ footer styles
 ================*/
 
 footer p {
-    background-color: #1842a3;
+    background-color: #dbdbdb;
     text-align: center;
     padding: 30px 0px;
-    color: #fff;
+    color: #000;
     clear:left;
 }
