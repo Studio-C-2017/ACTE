@@ -1,0 +1,92 @@
+/*================
+Table of Contents
+1. universal styles
+2. nav styles
+3. index styles
+4. news styles
+5. officers styles
+6. planning ideas styles
+7. webinars styles
+8. footer styles
+================*/
+
+/*================
+universal styles
+================*/
+
+body{
+  margin: 0;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+/*================
+nav styles
+================*/
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 40px;
+  overflow: hidden;
+  background-color: #273985;
+  text-align: center;
+    background-color: #1842a3;
+    justify-content:space-between;
+    display:flex;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+  text-align: center;
+    width: calc(100% / 7);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 25px 0px;
+}
+
+nav ul li:hover {
+
+}
+
+/*================
+index styles
+================*/
+
+/*================
+news styles
+================*/
+
+/*================
+officers styles
+================*/
+
+/*================
+planning ideas styles
+================*/
+
+/*================
+webinars styles
+================*/
+
+/*================
+footer styles
+================*/
+
+footer p {
+    background-color: #1842a3;
+    text-align: center;
+    padding: 30px 0px;
+    color: #fff;
+    clear:left;
+}
