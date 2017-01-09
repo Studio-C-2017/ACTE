@@ -55,8 +55,8 @@ nav ul li a {
   padding: 25px 0px;
 }
 
-nav ul li:hover {
-
+nav a:hover {
+    color: #000;
 }
 
 /*================
