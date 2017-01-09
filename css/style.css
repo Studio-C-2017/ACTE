@@ -63,6 +63,15 @@ nav a:hover {
 index styles
 ================*/
 
+.imgrow{
+  height: 200px;
+  width: 200px;
+}
+
+.sideimg1, .sideimg2{
+
+}
+
 /*================
 news styles
 ================*/
