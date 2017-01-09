@@ -63,9 +63,22 @@ nav a:hover {
 index styles
 ================*/
 
-.imgrow{
+#carousel {
+  height: 400px;
+  width: 75%;
+  margin: auto;
+  text-align: center;
+}
+
+.imgrow {
+  margin: auto;
   height: 200px;
   width: 200px;
+  text-align: center;
+}
+
+.img{
+  
 }
 
 .sideimg1, .sideimg2{
