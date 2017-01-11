@@ -90,6 +90,10 @@ index styles
   display: inline-block;
 }
 
+#contentWrapper {
+  
+}
+
 #mainContent {
   float: right;
   width: 650px;
