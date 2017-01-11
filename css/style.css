@@ -15,7 +15,7 @@ universal styles
 ================*/
 
 body{
-  margin: 0;
+  margin: 25px;
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -67,22 +67,63 @@ index styles
   height: 400px;
   width: 75%;
   margin: auto;
+  margin-top: 25px;
   text-align: center;
+  background-image: url("../assets/images/placeholder.jpg");
+  background-size: contain;
+  background-position: center;
 }
 
 .imgrow {
-  margin: auto;
-  height: 200px;
-  width: 200px;
+  padding: 25px 0;
+  margin: auto 0;
   text-align: center;
 }
 
 .img{
+  background-image: url("../assets/images/placeholder.jpg");
+  height: 200px;
+  width: 200px;
+  margin: 0 25px;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+#contentWrapper {
   
 }
 
-.sideimg1, .sideimg2{
+#mainContent {
+  float: right;
+  width: 650px;
+}
 
+#sidebar {
+  float: left;
+  width: 400px;
+  text-align: center;
+}
+
+.sidebarImg {
+  background-image: url("../assets/images/placeholder.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 25px auto;
+}
+
+#sidebarImg1 {
+  width: 325px;
+  height: 150px;
+}
+
+#sidebarImg2 {
+  width: 325px;
+  height: 325px;
+}
+
+.clear {
+  clear: both;
 }
 
 /*================
