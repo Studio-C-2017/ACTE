@@ -59,6 +59,11 @@ nav a:hover {
     color: #000;
 }
 
+#navLogo {
+  height: 255px;
+  width: 330px;
+}
+
 /*================
 index styles
 ================*/
@@ -69,9 +74,12 @@ index styles
   margin: auto;
   margin-top: 25px;
   text-align: center;
-  background-image: url("../assets/images/placeholder.jpg");
-  background-size: contain;
-  background-position: center;
+  border: 8px solid #ccc;
+}
+
+.carouselImg {
+  height: 400px;
+  width: 75%;
 }
 
 .imgrow {
@@ -88,10 +96,11 @@ index styles
   background-size: cover;
   background-position: center;
   display: inline-block;
+  border: 8px solid #8DDCA4;
 }
 
 #contentWrapper {
-  
+
 }
 
 #mainContent {
@@ -110,6 +119,7 @@ index styles
   background-size: cover;
   background-position: center;
   margin: 25px auto;
+  border: 8px solid #8DDCA4;
 }
 
 #sidebarImg1 {
