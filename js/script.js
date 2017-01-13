@@ -1,8 +1,5 @@
 $(document).ready(function(){
-  $(.carousel).slick({
+  $('.slickCarousel').slick({
     setting-name: setting-value
-    accessibility: true;
-    arrows: true;
-
   });
 });

@@ -68,13 +68,8 @@ nav a:hover {
 index styles
 ================*/
 
-#carousel {
-  height: 400px;
-  width: 75%;
-  margin: auto;
-  margin-top: 25px;
-  text-align: center;
-  border: 8px solid #ccc;
+.slickCarousel {
+  width: 40%;
 }
 
 .carouselImg {
