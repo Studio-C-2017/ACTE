@@ -40,9 +40,9 @@ nav ul {
   overflow: hidden;
   background-color: #273985;
   text-align: center;
-    background-color: #1842a3;
-    justify-content:space-between;
-    display:flex;
+  background-color: #1842a3;
+  justify-content:space-between;
+  display:flex;
 }
 
 nav ul li {
@@ -57,6 +57,8 @@ nav ul li a {
   color: #fff;
   display: block;
   padding: 25px 0px;
+  position: relative;
+  top: 17px;
 }
 
 nav a:hover {
@@ -64,8 +66,10 @@ nav a:hover {
 }
 
 #navLogo {
-  height: 255px;
-  width: 330px;
+  height: 85px;
+  width: 110px;
+  padding: 7px 0 2px 0;
+
 }
 
 /*================
@@ -104,8 +108,20 @@ index styles
 
 #mainContent {
   float: right;
-  width: 650px;
+  width: 70%;
 }
+
+/*mainContent media queries*/
+
+@media(max-width: 50%){
+
+  #mainContent{
+    width: 500px;
+  }
+
+}
+
+/*end mainContent media queries*/
 
 #sidebar {
   float: left;
