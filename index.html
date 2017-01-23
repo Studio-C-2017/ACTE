@@ -6,9 +6,8 @@
         <meta charset="utf-8"/>
         <title>ACTE Information Technology</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="assets/slickRoot/slick/slick.css"/>
-
+        <link rel="stylesheet" type="text/css" href="assets/css/slideshow.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
 
     <body>
@@ -25,11 +24,60 @@
     </header>
     <body>
 
-      <div class="slickCarousel">
-        <div><img src="assets/images/stockimg1.jpg" class="carouselImg" alt=""></div>
-        <div><img src="assets/images/stockimg2.jpg" class="carouselImg" alt=""></div>
-        <div><img src="assets/images/stockimg3.jpg" class="carouselImg" alt=""></div>
-      </div> <!-- end carousel div -->
+      <div id="slideshowWrapper">
+        <div id="slideshow">
+
+            <div id="carousel">
+
+                <div class="slide">
+                    <a href="#">
+                        <img src="assets/img/stockimg1.jpg"/>
+                    </a>
+                    <div class="slide-info">
+                        <a href="#">
+                            <h2 class="slide-title">Woah dude</h2>
+                            <span class="slide-description">I really wish we had an actual mockup</span>
+                        </a>
+                    </div> <!-- END slide-info -->
+                </div> <!-- END slide -->
+
+                <div class="slide">
+                    <a href="#">
+                        <img src="assets/img/stockimg2.jpg"/>
+                    </a>
+                    <div class="slide-info">
+                        <a href="example.com">
+                            <h2 class="slide-title">AAAAAAA</h2>
+                            <span class="slide-description">AAAAAAAAAAAAAAAAAAAAA</span>
+                        </a>
+                    </div> <!-- END slide-info -->
+                </div> <!-- END slide -->
+
+                <div class="slide">
+                    <a href="#">
+                        <img src="assets/img/stockimg3.jpg"/>
+                    </a>
+                    <div class="slide-info">
+                        <a href="example.com">
+                            <h2 class="slide-title">Kenny loves boiled eggs</h2>
+                            <span class="slide-description">Roamanian boiled eggs</span>
+                        </a>
+                    </div> <!-- END slide-info -->
+                </div> <!-- END slide -->
+
+            </div> <!--END carousel-->
+
+            <div id="slide-icon-container">
+                <div class="slide-icon"></div>
+                <div class="slide-icon"></div>
+                <div class="slide-icon"></div>
+            </div> <!-- END slide-icon-container -->
+
+            <div id="left-arrow"></div>
+            <div id="right-arrow"></div>
+
+        </div> <!-- END slideshow -->
+      </div>
 
       <div class="imgrow">
         <div class="img"></div>
@@ -64,10 +112,7 @@
       </div>
     </div><!-- end contentWrapper -->
 
-    <script src="js/script.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="assets/js/slideshow-script.js"></script>
 
     </body>
 

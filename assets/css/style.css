@@ -21,6 +21,10 @@ body{
   font-weight: 400;
 }
 
+#slideshowWrapper {
+  text-align: center;
+  margin: 25px;
+}
 
 /*================
 nav styles
@@ -78,13 +82,13 @@ index styles
 }
 
 .imgrow {
-  padding: 25px 0;
+  padding-bottom: 25px;
   margin: auto 0;
   text-align: center;
 }
 
 .img{
-  background-image: url("../assets/images/placeholder.jpg");
+  background-image: url("../img/placeholder.jpg");
   height: 200px;
   width: 200px;
   margin: 0 25px;
@@ -110,7 +114,7 @@ index styles
 }
 
 .sidebarImg {
-  background-image: url("../assets/images/placeholder.jpg");
+  background-image: url("../img/placeholder.jpg");
   background-size: cover;
   background-position: center;
   margin: 25px auto;
