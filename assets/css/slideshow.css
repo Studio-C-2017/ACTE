@@ -8,7 +8,7 @@
 #slideshow {
     position: relative;
     overflow: hidden;
-    outline: 5px solid #ccc;
+    outline: 8px solid #ccc;
     background-color: #fff;
     display: inline-block;
     margin: auto;
@@ -76,11 +76,13 @@ span.slide-description {
 #left-arrow {
     background-image: url(../img/slideshow-icons/arrow-right.png);
     float: left;
+    transition: ease-in-out .25s;
 }
 
 #right-arrow {
     background-image: url(../img/slideshow-icons/arrow-left.png);
     float: right;
+    transition: ease-in-out .25s;
 }
 
 #left-arrow:focus, #right-arrow:focus {
