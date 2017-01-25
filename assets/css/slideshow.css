@@ -16,6 +16,10 @@
       outline: 0;
   }
 
+  .slide-info {
+    display: none;
+  }
+
 }
 
 #slideshow {
