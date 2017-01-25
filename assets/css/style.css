@@ -198,16 +198,40 @@ media queries
 
 @media(max-width: 960px) {
 
+  body {
+    margin: 0;
+  }
+
+  
+
+  #slideshowWrapper {
+    margin: 0;
+  }
+
   .imgrow {
     display: none;
   }
 
-  #mainContent {
-    width: 100%;
+  #sidebar {
+    width: 160px;
   }
 
-  #sidebar {
+  #sidebarImg1 {
+    width: 160px;
+    float: left;
+  }
+
+  #sidebarImg2 {
     display: none;
+  }
+
+  #mainContent {
+    width: 400px;
+  }
+
+  #contentWrapper {
+    margin: 20px;
+    width: 80%;
   }
 
 }

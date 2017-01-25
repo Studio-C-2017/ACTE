@@ -5,6 +5,19 @@
     height: 500px;
 }
 
+@media(max-width: 960px){
+
+  #slideshow, .slide {
+    width: 100%;
+    height: 350px;
+  }
+
+  #slideshow {
+      outline: 0;
+  }
+
+}
+
 #slideshow {
     position: relative;
     overflow: hidden;
