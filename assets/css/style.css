@@ -113,12 +113,24 @@ index styles
 
 /*mainContent media queries*/
 
-@media(max-width: 50%){
+@media(max-width: 1400px){
 
   #mainContent{
-    width: 500px;
+    width: 65%;
   }
+}
 
+
+@media(max-width: 1200px){
+  #mainContent{
+    width: 60%;
+  }
+}
+
+@media(max-width: 1080px){
+  #mainContent{
+    width: 55%;
+  }
 }
 
 /*end mainContent media queries*/
@@ -178,4 +190,24 @@ footer p {
     padding: 30px 0px;
     color: #000;
     clear:left;
+}
+
+/*================
+media queries
+================*/
+
+@media(max-width: 960px) {
+
+  .imgrow {
+    display: none;
+  }
+
+  #mainContent {
+    width: 100%;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
 }
