@@ -281,16 +281,17 @@ media queries
   nav ul {
     list-style-type: none;
     overflow: hidden;
-    text-align: center;;
+    text-align: center;
     justify-content:space-between;
-    display:flex;
+    display:inline-block;
   }
 
   nav ul li {
     list-style: none;
     float: left;
+
     text-align: center;
-    width: calc(100% / 5);
+    width: 75px;
   }
 
   nav ul li a {
@@ -302,6 +303,7 @@ media queries
     top: 17px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: .7em;
   }
 
   nav a:hover {
