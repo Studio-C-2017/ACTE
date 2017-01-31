@@ -229,13 +229,13 @@ officers styles
 /*================
 planning ideas styles
 ================*/
-#planning-ideas-container {
+#planning-ideas-container, #webinars-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.planning-idea-link {
+.planning-idea-link, .webinar-link {
     display: block;
     text-align: center;
     flex-grow: 1;
@@ -244,7 +244,7 @@ planning ideas styles
     text-decoration: none;
 }
 
-.planning-idea-link:hover {
+.planning-idea-link:hover, .webinar-link:hover {
     color: purple;
 }
 
