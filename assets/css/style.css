@@ -39,6 +39,10 @@ main {
   text-align: center;
 }
 
+#bodyMain h1, #bodyMain p{
+  padding: 15px;
+}
+
 /*================
 nav styles
 ================*/
@@ -79,10 +83,11 @@ nav a:hover {
 }
 
 #navLogo {
-  height: 85px;
-  width: 110px;
+  height: 95px;
+  width: 120px;
   padding: 7px 0 2px 0;
-
+  position: relative;
+  right: px;
 }
 
 /*================
@@ -245,6 +250,8 @@ planning ideas styles
 webinars styles
 ================*/
 
+
+
 /*================
 footer styles
 ================*/
@@ -261,74 +268,14 @@ footer p {
 media queries
 ================*/
 
-@media(max-width: 960px) {
+@media(max-width: 1024px) {
 
-  #slideshowWrapper {
-    margin: 0;
-  }
-
-  .imgrow {
-    display: none;
-  }
-
-  #sidebar {
-    width: 160px;
-  }
-
-  #mainContent {
-    width: 400px;
-  }
-
-  #contentWrapper {
-    margin: 20px;
-    width: 80%;
-  }
-
-
-
-  footer p {
-      background-color: #273985;
-      text-align: right;
-      padding: 30px 30px;
-      color: #fff;
-
-  }
+  
 
 }
 
 @media(max-width: 500px) {
 
-  #slideshowWrapper {
-    margin: 0;
-  }
 
-  .imgrow {
-    display: none;
-  }
-
-  #sidebarImg1 {
-    display: none;
-  }
-
-  #sidebarImg2 {
-    display: none;
-  }
-
-  #mainContent {
-    width: 300px;
-  }
-
-  #contentWrapper {
-    margin: 20px;
-    width: 80%;
-  }
-
-  footer p {
-      background-color: #273985;
-      text-align: right;
-      padding: 30px 30px;
-      color: #fff;
-
-  }
 
 }
