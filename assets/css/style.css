@@ -187,6 +187,8 @@ officers styles
 
 .officer {
     text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 .officer-title {
@@ -227,7 +229,24 @@ officers styles
 /*================
 planning ideas styles
 ================*/
+#planning-idea-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.planning-idea-link {
+    display: block;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    color: blue;
+    text-decoration: none;
+}
+
+.planning-idea-link:hover {
+    color: purple;
+}
 
 /*================
 webinars styles
