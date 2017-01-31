@@ -38,9 +38,19 @@ main {
   text-align: center;
 }
 
+<<<<<<< HEAD
 #content-wrapper {
   margin: 0 30px;
     background-color: #ededed;
+=======
+#contentWrapper {
+  margin: 0 30px;
+}
+
+#mainContent {
+  background-color: #ededed;
+
+>>>>>>> bb49c5fa162ad4cd60a6616c5cf9dd214a6121f6
 }
 
 /*================
@@ -74,8 +84,11 @@ nav ul li a {
   padding: 25px 0px;
   position: relative;
   top: 17px;
+<<<<<<< HEAD
   text-transform: uppercase;
   font-weight: bold;
+=======
+>>>>>>> bb49c5fa162ad4cd60a6616c5cf9dd214a6121f6
 }
 
 nav a:hover {
@@ -118,6 +131,7 @@ index styles
     width: 100%;
 }
 
+<<<<<<< HEAD
 #home-page-wrapper {
     display: flex;
     background-color: #ededed;
@@ -147,6 +161,47 @@ main {
   #mainContent{
     width: 60%;
   }
+=======
+#mainContent {
+  float: right;
+  width: 70%;
+}
+
+/*mainContent media queries*/
+
+@media(max-width: 1400px){
+
+  #mainContent{
+    width: 65%;
+  }
+}
+
+
+@media(max-width: 1200px){
+  #mainContent{
+    width: 60%;
+  }
+}
+
+@media(max-width: 1080px){
+  #mainContent{
+    width: 55%;
+  }
+}
+
+/*end mainContent media queries*/
+
+#sidebar {
+  float: left;
+  text-align: center;
+}
+
+#sidebarImg1 {
+  background-image: url("../img/side1.jpg");
+  background-size: cover;
+  height: 500px;
+  width: 300px;
+>>>>>>> bb49c5fa162ad4cd60a6616c5cf9dd214a6121f6
 }
 
 @media(max-width: 1080px){
@@ -282,13 +337,6 @@ media queries
     width: 160px;
   }
 
-  #sidebarImg1 {
-  }
-
-  #sidebarImg2 {
-    display: none;
-  }
-
   #mainContent {
     width: 400px;
   }
@@ -337,6 +385,12 @@ media queries
     width: 80%;
   }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> bb49c5fa162ad4cd60a6616c5cf9dd214a6121f6
   footer p {
       background-color: #273985;
       text-align: right;
