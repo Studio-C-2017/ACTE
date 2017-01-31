@@ -229,7 +229,7 @@ officers styles
 /*================
 planning ideas styles
 ================*/
-#planning-idea-container {
+#planning-ideas-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -336,9 +336,6 @@ media queries
     margin: 20px;
     width: 80%;
   }
-
-
-
 
   footer p {
       background-color: #273985;
