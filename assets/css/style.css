@@ -25,6 +25,7 @@ body{
 main {
     background-color: #ededed;
 }
+
 #slideshowWrapper {
   text-align: center;
   margin: 25px;
@@ -87,7 +88,6 @@ nav a:hover {
 /*================
 index styles
 ================*/
-
 .slickCarousel {
   width: 40%;
 }
@@ -111,9 +111,19 @@ index styles
     width: 100%;
 }
 
-#mainContent {
-  float: right;
-  width: 70%;
+#home-main {
+    display: flex;
+    width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+    align-items: flex-start;
+}
+
+#sidebar-image {
+}
+
+#home-page-content-wrapper {
+    margin: 0 12pt;
 }
 
 /*mainContent media queries*/
@@ -130,26 +140,6 @@ index styles
   #mainContent{
     width: 60%;
   }
-}
-
-@media(max-width: 1080px){
-  #mainContent{
-    width: 55%;
-  }
-}
-
-/*end mainContent media queries*/
-
-#sidebar {
-  float: left;
-  text-align: center;
-}
-
-#sidebarImg1 {
-  background-image: url("../img/side1.jpg");
-  background-size: cover;
-  height: 500px;
-  width: 300px;
 }
 
 @media(max-width: 1080px){
