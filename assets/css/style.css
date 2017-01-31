@@ -15,13 +15,16 @@ universal styles
 ================*/
 
 body{
-  margin: 25px;
+  margin: 0 auto;
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background-image: url("../img/background.png");
 }
 
+main {
+    background-color: #ededed;
+}
 #slideshowWrapper {
   text-align: center;
   margin: 25px;
@@ -35,13 +38,9 @@ body{
   text-align: center;
 }
 
-#contentWrapper {
+#content-wrapper {
   margin: 0 30px;
-}
-
-#mainContent {
-  background-color: #ededed;
-
+    background-color: #ededed;
 }
 
 /*================
@@ -75,10 +74,12 @@ nav ul li a {
   padding: 25px 0px;
   position: relative;
   top: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 nav a:hover {
-    color: #000;
+    color: black;
 }
 
 #navLogo {
@@ -109,24 +110,27 @@ index styles
   text-align: center;
 }
 
-.img{
-  background-image: url("../img/placeholder.jpg");
-  height: 200px;
-  width: 200px;
-  margin: 0 25px;
-  background-size: cover;
-  background-position: center;
-  display: inline-block;
-  border: 8px solid #8DDCA4;
+#banner-wrapper {
+    width: 100%;
 }
 
-#contentWrapper {
-
+#banner {
+    width: 100%;
 }
 
-#mainContent {
-  float: right;
-  width: 70%;
+#home-page-wrapper {
+    display: flex;
+    background-color: #ededed;
+    justify-content: space-between;
+}
+
+#sidebarImg1 {
+    align-self: flex-start;
+    min-width: 223px;
+}
+
+main {
+    padding: 6pt 12pt;
 }
 
 /*mainContent media queries*/
@@ -153,21 +157,6 @@ index styles
 
 /*end mainContent media queries*/
 
-#sidebar {
-  float: left;
-  text-align: center;
-}
-
-#sidebarImg1 {
-  background-image: url("../img/side1.jpg");
-  background-size: cover;
-  height: 500px;
-  width: 300px;
-}
-
-.clear {
-  clear: both;
-}
 
 /*================
 news styles
@@ -176,7 +165,51 @@ news styles
 /*================
 officers styles
 ================*/
+#officer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20pt 12pt;
+}
 
+.officer {
+    text-align: center;
+}
+
+.officer-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.officer-name {
+    text-transform: lowercase;
+    font-weight: lighter;
+}
+
+.officer-image-wrapper {
+    display: inline-block;
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+    margin: auto;
+}
+
+.officer-image {
+}
+
+#contact-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact {
+    flex-basis: 45%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info {
+    
+}
 /*================
 planning ideas styles
 ================*/
@@ -217,8 +250,6 @@ media queries
   }
 
   #sidebarImg1 {
-    width: 160px;
-    float: left;
   }
 
   #sidebarImg2 {
