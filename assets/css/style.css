@@ -337,6 +337,7 @@ media queries
 
   body{
     margin: 0;
+    background-image: url("../"); /*just gets rid of background image*/
   }
 
   #sidebar-image {
@@ -367,6 +368,14 @@ media queries
 
   .contact {
     padding: 15px 0;
+  }
+
+  #planning-ideas-container {
+    display: block;
+  }
+
+  #planning-ideas-container a {
+    margin-bottom: 15px;
   }
 
 }
