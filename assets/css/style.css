@@ -39,7 +39,12 @@ main {
   text-align: center;
 }
 
-#bodyMain h1, #bodyMain p{
+h1 {
+  text-transform: uppercase;
+  padding: 15px;
+  font-family: Montserrat, sans-serif;
+}
+#bodyMain h1, #bodyMain p {
   padding: 15px;
 }
 
@@ -160,8 +165,7 @@ index styles
 news styles
 ================*/
 #news-page-title {
-    text-transform: uppercase;
-    font-family: Montserrat, sans-serif;
+
 }
 
 .news-post {
@@ -249,7 +253,16 @@ planning ideas styles
 /*================
 webinars styles
 ================*/
+#webinar-page-title {
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+}
 
+.webinar-post {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+}
 
 
 /*================
