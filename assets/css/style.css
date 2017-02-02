@@ -23,7 +23,7 @@ body {
 }
 
 main {
-    background-color: #ededed;
+    background-color: #fff;
 }
 
 #slideshowWrapper {
@@ -46,6 +46,10 @@ h1 {
 }
 #bodyMain h1, #bodyMain p {
   padding: 15px;
+}
+
+.mobileImg {
+  display: none;
 }
 
 /*================
@@ -327,6 +331,23 @@ media queries
 
 @media(max-width: 500px) {
 
+  nav {
+    display: none;
+  }
 
+  body{
+    margin: 0;
+  }
+
+  #sidebar-image {
+    display: none;
+  }
+
+  .mobileImg {
+    display: block;
+    margin: auto;
+    height: 150px;
+
+  }
 
 }
