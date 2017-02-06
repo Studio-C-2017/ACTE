@@ -8,7 +8,7 @@
 
 /* Notes
     This script is repurposed from an attempted swcta.net redesign. It requires a nav element, a button (can be a div) with an id of "nav-button", a 100% width div with the id "nav-button-container", and a main element.
-    
+
     Important: It is the navButtonContainer that is translated, NOT the navButton itself.
 */
 
@@ -17,6 +17,7 @@ var nav = document.getElementsByTagName("nav")[0],
     navButton = document.getElementById("nav-button"),
     navButtonContainer = document.getElementById("nav-button-container"),
     main = document.getElementsByTagName("main")[0],
+    header = document.getElementsByTagName("header")[0],
     onpage = false; // Decides if Nav is in view of user
 
 // Puts Nav on page
@@ -24,7 +25,7 @@ function slidein() {
     'use strict'; // I hate JSLint
     nav.style.transform = "translate(100%)";
     navButtonContainer.style.transform = "translate(100%)";
-    navButton.style.backgroundImage = "url(img/nav-button-reverse.svg)";
+    navButton.style.backgroundImage = "url(assets/img/nav-button-reverse.svg)";
     onpage = true;
 }
 
@@ -33,7 +34,7 @@ function slideout() {
     'use strict';
     nav.style.transform = "translate(0)";
     navButtonContainer.style.transform = "translate(0)";
-    navButton.style.backgroundImage = "url(img/nav-button.svg)";
+    navButton.style.backgroundImage = "url(assets/img/nav-button.svg)";
     onpage = false;
 }
 
@@ -61,6 +62,9 @@ navButton.addEventListener("click", slide);
 
 // Onclick of Main (slideoutclick)
 main.addEventListener("click", slideout);
+
+// Onclick of Header (slideoutclick)
+header.addEventListener("click", slideout);
 
 // Unload (slideoutclick)
 window.addEventListener("beforeunload", slideout);

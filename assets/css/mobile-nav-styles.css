@@ -6,13 +6,14 @@
 
 #mobile-header {
     width: 100vw;
-    background-color: #007ABC;
     position: fixed;
+    bottom: 12pt;
+    display: none;
 }
 
 #nav-button {
     width: 48pt;
-    background-color: #007ABC;
+    background-color: #406f84;
     background-image: url(../img/nav-button.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -23,42 +24,43 @@
     /*background-image: url(../img/nav-button-reverse.svg);*/
 }
 
-@media (max-width: 700px) {
-    
+@media (max-width: 500px) {
+
     /* Makes #mobile-header visible */
     #mobile-header {
         display: block;
-        background-image:url(../img/logo.svg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
     }
-    
+
     #nav-button-container, nav {
         width: 250px;
         transition: transform 0.33s;
     }
-    
+
     nav {
+        display: block;
         left: -250px;
         top: 0;
         color: #333;
         margin: 0;
         position: fixed;
         height: 100vh;
-        background-color: #007ABC;
+        background-color: #406f84;
         overflow: scroll;
     }
-    
+
     nav ul {
         display: block;
         padding: 0;
         margin-top: 18pt;
     }
-    
+
     nav ul li {
+        float: none;
     }
-    
+
     nav ul li a {
         text-decoration: none;
         box-sizing: border-box;
@@ -69,13 +71,8 @@
         padding: 12pt;
         width: 100%;
     }
-    
+
     nav ul li a:hover {
-        background-color: white;
-        color: #007ABC;
-    }
-    
-    main {
-        padding-top: 48pt;
+
     }
 }
