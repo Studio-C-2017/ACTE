@@ -362,12 +362,16 @@ media queries
 
   #contact-container {
       display: block;
-      text-align: right;
-      margin: 0 15px;
+      text-align: left;
+      margin: 0 10px;
   }
 
   .contact {
-    padding: 15px 0;
+    padding: 10px 0;
+  }
+
+  .contact img {
+    display: none;
   }
 
   #planning-ideas-container {
