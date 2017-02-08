@@ -1,10 +1,14 @@
 
 /* BEGIN slideshow */
-#slideshow, .slide {
-    width: 1000px;
+#slideshow {
+    width: 100%;
     height: 500px;
+    box-sizing: border-box;
 }
 
+.slide {
+     width: 870px;
+}
 
 
 #slideshow {
