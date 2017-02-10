@@ -18,7 +18,15 @@ var nav = document.getElementsByTagName("nav")[0],
     navButtonContainer = document.getElementById("nav-button-container"),
     main = document.getElementsByTagName("main")[0],
     header = document.getElementsByTagName("header")[0],
+    slides = document.getElementsByClassName("slide"),
+    slideshow = document.getElementById("slideshow");
     onpage = false; // Decides if Nav is in view of user
+
+var slideshowWidth = slideshow.offsetWidth;
+
+for (i = 0; i < slides.length; i += 1) {
+    slides[i].style.width = slideshowWidth + "px";
+}
 
 // Puts Nav on page
 function slidein() {

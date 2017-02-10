@@ -44,7 +44,7 @@ h1 {
   padding: 15px;
   font-family: Montserrat, sans-serif;
 }
-#bodyMain h1, #bodyMain p {
+#bodyMain h1, p {
   padding: 15px;
 }
 
@@ -192,6 +192,46 @@ news styles
     text-transform: uppercase;
 }
 
+.news_image {
+    padding: 6pt;
+}
+
+.post-excerpt {
+    padding: 0;
+}
+
+/*================
+webinars styles
+================*/
+#webinar-page-title {
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+}
+
+.webinar-post {
+    padding: 12pt;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+}
+
+.webinar-post-title {
+    text-transform: uppercase;
+    flex-basis
+}
+
+.webinar_image {
+    margin: 0 6pt;
+}
+
+.webinar-post-info {
+
+}
+
+.webinar-post p {
+    padding: 0;
+}
+
 /*================
 officers styles
 ================*/
@@ -263,21 +303,6 @@ planning ideas styles
 .planning-idea-link:hover {
     color: purple;
 }
-
-/*================
-webinars styles
-================*/
-#webinar-page-title {
-    text-transform: uppercase;
-    font-family: Montserrat, sans-serif;
-}
-
-.webinar-post {
-    background-color: #f4f4f4;
-    display: flex;
-    align-items: center;
-}
-
 
 /*================
 footer styles
