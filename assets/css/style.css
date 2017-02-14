@@ -9,7 +9,12 @@ Table of Contents
 7. webinars styles
 8. footer styles
 ================*/
-
+/* Colors
+ * Blue - #0068b3
+ * Medium Green - #0aa596
+ * Dark Green - #00957f
+ * Light Green - #9fd0c9
+ */
 /*================
 universal styles
 ================*/
@@ -19,11 +24,18 @@ body {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background-image: url("../img/background.png");
+  vbackground-image: url("../img/background.png");
 }
 
+a {
+    text-decoration: none;
+    color: #00957f;
+}
+
+a:hover {
+    color: #9fd0c9;
+}
 main {
-    background-color: #fff;
 }
 
 #slideshowWrapper {
@@ -44,7 +56,7 @@ h1 {
   padding: 15px;
   font-family: Montserrat, sans-serif;
 }
-#bodyMain h1, p {
+#bodyMain h1 {
   padding: 15px;
 }
 
@@ -308,7 +320,7 @@ planning ideas styles
 footer styles
 ================*/
 footer {
-    background-color: #002f98;
+    background-color: #0068b3;
     padding: 20pt 0;
 }
 
