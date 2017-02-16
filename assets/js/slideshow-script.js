@@ -15,6 +15,21 @@ function main() {
         i = 0;
     //slideIcons[currentSlide].style.backgroundImage = selectedIconImage;
 
+    function resizeSlides() {
+        var slideshowWidth = slideshow.offsetWidth;
+
+        for (i = 0; i < slides.length; i += 1) {
+            slides[i].style.width = slideshowWidth + "px";
+        }
+        
+        slideWidth = slideshowWidth;
+        return slideshowWidth;
+    }
+    
+    resizeSlides();
+    
+    window.addEventListener("resize", resizeSlides);
+    
     // Puts shift into slideshow style
     // Puts value of shift into the style of the carousel
     function shifter(shiftSize) {

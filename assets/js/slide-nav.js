@@ -22,12 +22,6 @@ var nav = document.getElementsByTagName("nav")[0],
     slideshow = document.getElementById("slideshow");
     onpage = false; // Decides if Nav is in view of user
 
-var slideshowWidth = slideshow.offsetWidth;
-
-for (i = 0; i < slides.length; i += 1) {
-    slides[i].style.width = slideshowWidth + "px";
-}
-
 // Puts Nav on page
 function slidein() {
     'use strict'; // I hate JSLint
@@ -72,7 +66,7 @@ navButton.addEventListener("click", slide);
 main.addEventListener("click", slideout);
 
 // Onclick of Header (slideoutclick)
-header.addEventListener("click", slideout);
+//header.addEventListener("click", slideout);
 
 // Unload (slideoutclick)
 window.addEventListener("beforeunload", slideout);
