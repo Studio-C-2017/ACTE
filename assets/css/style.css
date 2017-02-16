@@ -159,14 +159,12 @@ news styles
     background-color: #f4f4f4;
     display: flex;
     align-items: center;
-    margin: 24pt;
     padding: 12pt;
 }
 
 .post-title {
     text-transform: uppercase;
-    font-size: 12pt;
-    margin: 0;
+    flex-basis
 }
 
 .post-date {
@@ -174,8 +172,7 @@ news styles
 }
 
 .news_image {
-    height: 100%;
-    padding-right: 6pt;
+    margin: 0 6pt;
 }
 
 .post-excerpt {
@@ -199,6 +196,11 @@ webinars styles
     margin: 24pt;
     padding: 12pt;
 }
+.webinar-post-excerpt{
+    padding: 0;
+    margin: 0;
+    line-height: 1.75em;
+}
 
 .webinar-post-title {
     text-transform: uppercase;
@@ -217,6 +219,10 @@ webinars styles
 
 .webinar-post p {
     padding: 0;
+}
+
+.webinar-post-date{
+    line-height: 1.75em;
 }
 
 /*================
