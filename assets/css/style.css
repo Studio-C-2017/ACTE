@@ -14,6 +14,8 @@ Table of Contents
  * Medium Green - #0aa596
  * Dark Green - #00957f
  * Light Green - #9fd0c9
+ * Darker Gray - #ededed
+ * Lighter Gray - #f4f4f4
  */
 /*================
 universal styles
@@ -35,29 +37,17 @@ a {
 a:hover {
     color: #9fd0c9;
 }
+
 main {
-}
-
-#slideshowWrapper {
-  text-align: center;
-  margin: 25px;
-}
-
-.banner {
-  width: 75%;
-}
-
-.bannerWrapper {
-  text-align: center;
+    background-color: #ededed;
+    padding: 2px;
 }
 
 h1 {
   text-transform: uppercase;
-  padding: 15px;
   font-family: Montserrat, sans-serif;
-}
-#bodyMain h1 {
-  padding: 15px;
+  text-align: center;
+  font-size: 40pt;
 }
 
 .mobileImg {
@@ -68,35 +58,32 @@ h1 {
 nav styles
 ================*/
 nav {
-  width: 100%;
+    width: 100%;
+    margin: 16pt 0;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0 40px;
-  overflow: hidden;
-  text-align: center;
-  justify-content:space-between;
-  display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
 }
 
 nav ul li {
-  list-style: none;
-  float: left;
-  text-align: center;
-  width: calc(100% / 6);
+    
 }
 
 nav ul li a {
-  text-decoration: none;
-  color:#0068b3;
-  display: block;
-  padding: 25px 0px;
-  position: relative;
-  top: 17px;
-  text-transform: uppercase;
-  font-weight: bold;
+    display: block;
+    text-decoration: none;
+    color: #0068b3;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 24pt 0;
 }
 
 nav a:hover {
@@ -104,61 +91,36 @@ nav a:hover {
 }
 
 #navLogo {
-  height: 100px;
-  padding: 7px 0 2px 0;
-  position: relative;
+    width: 200px;
+}
+
+@media (max-width: 800px) {
+    #navLogo {
+        width: 140px;
+    }
 }
 
 /*================
 index styles
 ================*/
-.slickCarousel {
-  width: 40%;
-}
-
-.carouselImg {
-  height: 400px;
-  width: 75%;
-}
-
-.imgrow {
-  padding-bottom: 25px;
-  margin: auto 0;
-  text-align: center;
-}
-
-#banner-wrapper {
-    width: 100%;
-}
-
-#banner {
-    width: 100%;
-}
-
-#gallery {
-    display: flex;
-}
-
-.gallery-image-wrapper {
-    flex-basis: 0;
-    flex-grow: 1;
-    text-align: center;
-    background-color: #78C175;
-    margin: 6pt;
-}
-
 #home-main {
     display: flex;
     width: 100%;
     flex-basis: 0;
     flex-grow: 1;
     align-items: flex-start;
+    margin-top: 12pt;
+    padding: 0;
+}
+
+#slideshow {
+    margin: 16pt 0;
 }
 
 #sidebar-image {
 }
 
-#home-page-content-wrapper {
+#home-page-content {
     margin: 0 12pt;
 }
 
@@ -198,18 +160,29 @@ news styles
     background-color: #f4f4f4;
     display: flex;
     align-items: center;
+    margin: 24pt;
+    padding: 12pt;
 }
 
 .post-title {
     text-transform: uppercase;
+    font-size: 12pt;
+    margin: 0;
+}
+
+.post-date {
+    line-height: 1.75em;
 }
 
 .news_image {
-    padding: 6pt;
+    height: 100%;
+    padding-right: 6pt;
 }
 
 .post-excerpt {
     padding: 0;
+    margin: 0;
+    line-height: 1.75em;
 }
 
 /*================
@@ -222,9 +195,9 @@ webinars styles
 
 .webinar-post {
     padding: 12pt;
-    background-color: #f4f4f4;
     display: flex;
     align-items: center;
+    background-color: #f4f4f4;
 }
 
 .webinar-post-title {
@@ -265,7 +238,7 @@ officers styles
 }
 
 .officer-name {
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
     font-weight: lighter;
 }
 
@@ -292,7 +265,7 @@ officers styles
 }
 
 .contact-info {
-
+    vertical-align: middle;
 }
 /*================
 planning ideas styles
@@ -322,6 +295,7 @@ footer styles
 footer {
     background-color: #0068b3;
     padding: 20pt 0;
+    margin-top: 12pt;
 }
 
 footer div {
@@ -335,57 +309,14 @@ footer div {
 media queries
 ================*/
 
-@media(max-width: 1024px) {
 
-  #navLogo {
+@media(max-width: 650px) {
+
+  nav {
     display: none;
   }
 
-  nav {
-    width: 100%;
-  }
-
-  nav ul {
-    list-style-type: none;
-    overflow: hidden;
-    text-align: center;
-    justify-content:space-between;
-    display:inline-block;
-  }
-
-  nav ul li {
-    list-style: none;
-    float: left;
-
-    text-align: center;
-    width: 75px;
-  }
-
-  nav ul li a {
-    text-decoration: none;
-    color: #406f84;
-    display: block;
-    padding: 25px 0px;
-    position: relative;
-    top: 17px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: .7em;
-  }
-
-  nav a:hover {
-      color: black;
-  }
-
-}
-
-@media(max-width: 500px) {
-
-  nav {
-    display: none;-cursor:
-  }
-
-  body{
+  body {
     margin: 0;
     background-image: url("../"); /*just gets rid of background image*/
   }
