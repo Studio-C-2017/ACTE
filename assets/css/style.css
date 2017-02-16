@@ -87,7 +87,6 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: black;
 }
 
 #navLogo {
@@ -304,13 +303,13 @@ Resources styles
 }
 
 .resources-link:hover {
-    color: purple;
 }
 
 .resources-title {
     background-color: #0068b3;
-    margin: 0 4pt;
+    margin: auto;
     padding: 4pt;
+    width: 200px;
     border-radius: 8px;
 }
 
@@ -330,6 +329,10 @@ footer div {
     line-height: 1.5em;
 }
 
+footer div a {
+    color: white;
+    font-weight: bold;
+}
 /*================
 media queries
 ================*/
