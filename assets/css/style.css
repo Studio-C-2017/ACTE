@@ -74,7 +74,7 @@ nav ul {
 }
 
 nav ul li {
-    
+
 }
 
 nav ul li a {
@@ -194,19 +194,22 @@ webinars styles
 }
 
 .webinar-post {
-    padding: 12pt;
+    background-color: #f4f4f4;
     display: flex;
     align-items: center;
-    background-color: #f4f4f4;
+    margin: 24pt;
+    padding: 12pt;
 }
 
 .webinar-post-title {
     text-transform: uppercase;
-    flex-basis
+    font-size: 12pt;
+    margin: 0
 }
 
 .webinar_image {
-    margin: 0 6pt;
+    height: 100%;
+    padding-right: 6pt;
 }
 
 .webinar-post-info {
@@ -268,25 +271,47 @@ officers styles
     vertical-align: middle;
 }
 /*================
-planning ideas styles
+Resources styles
 ================*/
-#planning-ideas-container {
+#planning-header {
+    margin: 24pt;
+}
+
+#planning-links a {
+    display: block;
+    padding: 4pt 0;
+}
+
+#meeting-date {
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+}
+#resources-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.planning-idea-link {
+.resources-link {
     display: block;
     text-align: center;
     flex-grow: 1;
     flex-basis: 0;
-    color: blue;
     text-decoration: none;
+    color: white;
+    margin: 4pt 0;
 }
 
-.planning-idea-link:hover {
+.resources-link:hover {
     color: purple;
+}
+
+.resources-title {
+    background-color: #0068b3;
+    margin: 0 4pt;
+    padding: 4pt;
+    border-radius: 8px;
 }
 
 /*================
